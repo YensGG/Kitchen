@@ -34,9 +34,7 @@ int main()
 	cout << "The average score of " << film << " is " << newrating;
 	
 	int exit = 0;
-	cout <<"\n";
-	cout <<"\n";
-	cout <<"\n";
+	cout <<"\n\n\n";
 	cout <<"Type to quit.";
 	cin >> exit;
 	cout <<"bbye :)";
