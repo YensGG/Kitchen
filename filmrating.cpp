@@ -9,9 +9,8 @@ using namespace std;
 
 int main()
 {
-
 	// Get the name of the movie
-	string film = "";
+	string film;
 	cout << "What is the name of the movie?\n";
 	getline(cin, film);
 	
@@ -32,8 +31,14 @@ int main()
 	double newrating = avg / 10;
 
 	// Display result of calculation
-	cout << "The average score of " << film << " is " << newrating << ".";
-
-	return 0;
+	cout << "The average score of " << film << " is " << newrating;
 	
+	int exit = 0;
+	cout <<"\n";
+	cout <<"\n";
+	cout <<"\n";
+	cout <<"Type to quit.";
+	cin >> exit;
+	cout <<"bbye :)";
+	return 0;
 }
